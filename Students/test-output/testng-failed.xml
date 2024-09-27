@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adhoc]">
+  <test thread-count="5" name="functions(failed)">
+    <parameter name="browers" value="chrome"/>
+    <parameter name="Website" value="https://www.amazon.com"/>
+    <classes>
+      <class name="Pro.Tarining.Tech.Students.PageObjectModel">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="browsers"/>
+        </methods>
+      </class> <!-- Pro.Tarining.Tech.Students.PageObjectModel -->
+    </classes>
+  </test> <!-- functions(failed) -->
+  <test thread-count="5" name="functionbrowsers(failed)">
+    <parameter name="browers" value="Edge"/>
+    <parameter name="Website" value="https://www.amazon.com"/>
+    <classes>
+      <class name="Pro.Tarining.Tech.Students.PageObjectModel">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="browsers"/>
+        </methods>
+      </class> <!-- Pro.Tarining.Tech.Students.PageObjectModel -->
+    </classes>
+  </test> <!-- functionbrowsers(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->

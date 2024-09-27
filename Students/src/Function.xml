@@ -1,0 +1,18 @@
+<suite name="Adhoc">
+<test name="functions">
+<parameter name="browers" value="chrome"></parameter>
+<parameter name="Website" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Pro.Tarining.Tech.Students.Selenium"></class>
+<class name="Pro.Tarining.Tech.Students.PageObjectModel"></class>
+</classes>
+</test>
+<test name="functionbrowsers">
+<parameter name="browers" value="edge"></parameter>
+<parameter name="Website" value="https://www.amazon.com"></parameter>
+<classes>
+<class name="Pro.Tarining.Tech.Students.Selenium"></class>
+<class name="Pro.Tarining.Tech.Students.PageObjectModel"></class>
+</classes>
+</test>
+</suite>
